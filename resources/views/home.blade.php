@@ -14,6 +14,9 @@
                         </div>
                     @endif
 
+                    <example-component></example-component>
+                    <br>
+
                     {{ __('You are logged in!') }}
                 </div>
             </div>

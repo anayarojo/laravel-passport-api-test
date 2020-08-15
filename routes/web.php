@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/token', function () {
+    return \Auth::user()->createToken('test');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
