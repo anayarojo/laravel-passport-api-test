@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c030db-ef0f-4d5a-8538-29a21e43380b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/passport-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/passport-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597471464807</updated>
-      <workItem from="1597471465888" duration="131000" />
+      <workItem from="1597471465888" duration="295000" />
     </task>
     <servers />
   </component>
