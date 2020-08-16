@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/token', function () {
-    return \Auth::user()->createToken('test');
-});
+//Route::get('/token', function () {
+//    return \Auth::user()->createToken('test');
+//});
 
 Auth::routes();
 

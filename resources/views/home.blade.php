@@ -24,3 +24,14 @@
     </div>
 </div>
 @endsection
+
+@section('scripts')
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(event) {
+            window.axios.get('/api/user').then((response) => {
+                console.log(response);
+            });
+        });
+    </script>
+@endsection
+

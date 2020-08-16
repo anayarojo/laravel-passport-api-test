@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <script src="{{ asset('js/app.js') }}" defer></script>
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -79,11 +81,10 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div id="app" class="content">
                 <div class="title m-b-md">
                     Laravel
                 </div>
-
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
@@ -96,5 +97,12 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function(event) {
+                window.axios.get('/api/user').then((response) => {
+                    console.log(response);
+                });
+            });
+        </script>
     </body>
 </html>
